@@ -34,8 +34,7 @@
     $food = new  Food('potato', 250);
 
     //メソッドにアクセスしメソッドを実行
-    print_r($food);
-    echo '<br>';
+   $food ->show_price();
 
 
     // クラスを定義する
@@ -63,11 +62,7 @@
     $animal = new Animal('dog', 60, 5000);
 
     // インスタンス$animalの各プロパティの値を出力する
-    print_r($animal);
-    echo '<br>';
-
-    $food -> show_price();
-    $animal -> show_height();
+    $animal->show_height();
     ?>
   </p>
 </body>
